@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version: 5.7
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -16,6 +16,6 @@ let package = Package(
             targets: ["rtpkcs11ecp"]),
     ],
     targets: [
-        .binaryTarget(name: "rtpkcs11ecp", url: "https://repo.rutoken.ru/repository/xcframework/releases/pkcs11ecp-shared/pkcs11ecp-production-shared-xcframework-3b5d9b7a36ba9ce29f5ea2f6a69c0cbf71044aa8.zip", checksum: "6b8c42907ad4be4cf15fbcf268168e2b8844bced923d9d585e02556a80cff631")
+        .binaryTarget(name: "rtpkcs11ecp", url: "https://repo.rutoken.ru/repository/xcframework/releases/pkcs11ecp/pkcs11ecp-384a4237aea9774aa51b5b8f729ad127cc601df0.zip", checksum: "5e32e832b220e3e94a6557b94aaddac9239a1b164b563cbb518007f0ba99ab05")
     ]
 )
