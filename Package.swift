@@ -16,6 +16,6 @@ let package = Package(
             targets: ["rtpkcs11ecp"]),
     ],
     targets: [
-        .binaryTarget(name: "rtpkcs11ecp", url: "https://repo.rutoken.ru/repository/xcframework/releases/pkcs11ecp/rtpkcs11ecp-665addc37b9765233e72d4a49ee4520c7d746878.zip", checksum: "bb3527fcbb31d61e89b60235f9e36e5bd4d1214be3462885f0a47d41129f8668")
+        .binaryTarget(name: "rtpkcs11ecp", url: "https://repo.rutoken.ru/repository/xcframework/releases/pkcs11ecp/rtpkcs11ecp-cd9d9698b4f843d78cff07bacf14ea419bf7a3c5.zip", checksum: "e7e548c324355d27c37e8d60f0e7545ef6b6d646589efc39a186b9cfbc248e4e")
     ]
 )
